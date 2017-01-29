@@ -1,8 +1,6 @@
-@import url('normalize.css');
 @import url('fonts.css');
 
 /*-------------------------MAIN SETTIGNS-----------------------*/
-
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +12,186 @@ ul li {
 
 a {
   text-decoration: none;
+}
+
+.clear::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+/*-------------------------HEADER-----------------------*/
+header {
+  padding: 14px 0;
+}
+
+header *{
+  display: inline-block;
+}
+
+.menu {
+  margin-left: 150px;
+  float: left;
+}
+
+.menu__item {
+  margin-right: 35px;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.align__item {
+    margin-left: -5px;
+}
+
+.menu__link {
+  color: #adadad;
+  font:11px 'Lato Bold', Verdana, sans-serif;
+  display: block;
+}
+
+.option {
+  color: #c5c5c5;
+  font:11px 'Lato Bold', Verdana, sans-serif;
+  float: right;
+  margin-right: 59px;
+}
+
+.rectangle::before {
+  position: relative;
+  top: 2px;
+  content: '';
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: #000 transparent transparent transparent;
+}
+
+.rectangle::after {
+  position: relative;
+  top: 1px;
+  content: '';
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: #fff transparent transparent transparent;
+  margin-left: -8px;
+}
+
+.logo-nav-cart {
+  border: 1px solid #ededed;
+  line-height: 103px;
+}
+
+.logo-nav-cart * {
+  display: inline-block;
+}
+
+.logo {
+  color: #333333;
+  font: 52px 'Didot bold', Verdana, sans-serif;
+  vertical-align: middle;
+}
+
+.nav__link {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #c5c5c5;
+}
+
+.nav__link:hover {
+  color: #333333;
+  border-bottom: 3px solid #167ad5;
+}
+
+.nav__link_sale {
+  color: #fc411d;
+}
+
+.bag {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #b3b3b3;
+}
+
+.cart {
+  position: relative;
+}
+
+.amount {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #333333;
+}
+
+.amount__wrap {
+  position: absolute;
+  left: 30px;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border: 2px solid #1f86da;
+}
+
+.catalog__header {
+  font: 58px 'Playfair Display Regular', Verdana, sans-serif;
+  color: #333333;
+}
+
+.sorting__item {
+  display: inline-block;
+}
+
+.sorting__link {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #adadad;
+}
+
+.sorting__link:hover {
+  color: #333333;
+  border-bottom: 3px solid #167ad5;
+}
+
+.catalog__item {
+  float: left;
+}
+
+.load {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #adadad;
+}
+
+.subscribe {
+  background: url('../img/bg-subscribe.png') no-repeat;
+  height: 287px;
+}
+
+.subscribe__link {
+  color: #496e88;
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+}
+
+.subsribe__slogan {
+  font: 38px 'Playfair Display Regular', Verdana, sans-serif;
+  color: #fff;
+}
+
+.subscribe__email {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #fff;
+}
+
+.fmenu__item {
+  display: inline-block;
+}
+
+.fmenu__link {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #333333;
+}
+
+.copyright {
+  font: 12px 'Lato Bold', Verdana, sans-serif;
+  color: #adadad;
 }

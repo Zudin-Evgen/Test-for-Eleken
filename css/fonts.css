@@ -18,3 +18,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Didot bold';
+    src: url('../fonts/ufonts-com-didot-bold.eot');
+    src: url('../fonts/ufonts-com-didot-bold?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts-com-didot-bold.woff2') format('woff2'),
+         url('../fonts/ufonts-com-didot-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
