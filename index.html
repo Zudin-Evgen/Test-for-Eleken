@@ -9,106 +9,122 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
 </head>
 <body>
-  <header class="header clear">
-    <ul class="menu">
-      <li class="menu__item"><a href="#" class="menu__link">DELIVERY</a></li>
-      <li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
-      <li class="menu__item align__item"><a href="#" class="menu__link">HELP</a></li>
-    </ul>
-    <div class="option">
-      <span class="option__currency">DOLLARS</span>
-      <div class="rectangle"></div>
-      <span class="option__lang">EN</span>
-      <div class="rectangle"></div>
-    </div>
-  </header>
-  <div class="logo-nav-cart clear">
-    <h1 class="logo">C&B</h1>
-    <nav>
-      <ul class="nav">
-        <li class="nav__item"><a href="" class="nav__link">HOME</a></li>
-        <li class="nav__item"><a href="" class="nav__link">CATALOG</a></li>
-        <li class="nav__item"><a href="" class="nav__link">NEWS</a></li>
-        <li class="nav__item"><a href="" class="nav__link nav__link_sale">SALE</a></li>
-        <li class="nav__item"><a href="" class="nav__link">ABOUT</a></li>
-        <li class="nav__item"><a href="" class="nav__link">CONTACT</a></li>
+  <div class="container">
+    <header class="header clear">
+      <ul class="menu">
+        <li class="menu__item"><a href="#" class="menu__link">DELIVERY</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+        <li class="menu__item align__item"><a href="#" class="menu__link">HELP</a></li>
       </ul>
-    </nav>
-    <div class="cart">
-      <span class="bag">YOUR BAG</span>
-      <div class="amount">2</div>
-      <div class="search"></div>
-      <div class="amount__wrap"></div>
+      <div class="option">
+        <div class="pointer">
+          <span class="option__currency">DOLLARS</span>
+          <div class="rectangle"></div>
+        </div>
+        <div class="option__line"></div>
+        <div class="pointer">
+          <span class="option__lang">EN</span>
+          <div class="rectangle"></div>
+        </div>
+      </div>
+    </header>
+    <div class="container-logo-nav-cart">
+    <div class="logo-nav-cart clear">
+        <h1 class="logo">C<span class="ampersand">&</span>B</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav__item"><a href="" class="nav__link">HOME</a></li>
+            <li class="nav__item"><a href="" class="nav__link">CATALOG</a></li>
+            <li class="nav__item"><a href="" class="nav__link">NEWS</a></li>
+            <li class="nav__item"><a href="" class="nav__link nav__link_sale">SALE</a></li>
+            <li class="nav__item"><a href="" class="nav__link nav__link_align">ABOUT</a></li>
+            <li class="nav__item"><a href="" class="nav__link">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="cart">
+          <span class="bag">YOUR BAG</span>
+          <div class="amount">2</div>
+          <div class="search"></div>
+          <div class="amount__wrap"></div>
+        </div>
+      </div>
     </div>
+    <section class="catalog clear">
+      <h1 class="catalog__header">Catalog</h1>
+      <ul class="sorting">
+        <li class="sorting__item"><a href="" class="sorting__link">ALL</a></li>
+        <li class="sorting__item"><a href="" class="sorting__link">T-SHIRTS</a></li>
+        <li class="sorting__item"><a href="" class="sorting__link">SWEATERS</a></li>
+        <li class="sorting__item"><a href="" class="sorting__link">SHORTS</a></li>
+        <li class="sorting__item"><a href="" class="sorting__link">JACKETS</a></li>
+        <li class="sorting__item"><a href="" class="sorting__link">ACCESSOIRES</a></li>
+      </ul>
+      <div class="catalog__list clear">
+        <figure class="catalog__item">
+          <img src="img/product1.png" alt="product1" class="catalog__img">
+          <figcaption class="catalog__product">Printed swimsuit</figcaption>
+          <span class="catalog__price">$23</span>
+        </figure>
+        <figure class="catalog__item">
+          <img src="img/product2.png" alt="product2" class="catalog__img">
+          <figcaption class="catalog__product">Jogging bermuda shorts</figcaption>
+          <span class="catalog__price"><span class="catalog__price_through">$36</span> <span class="catalog__price_red">$12</span></span>
+        </figure>
+        <figure class="catalog__item">
+          <img src="img/product3.png" alt="product3" class="catalog__img">
+          <figcaption class="catalog__product">Basic beach flip flops</figcaption>
+          <span class="catalog__price">$9</span>
+        </figure>
+        <figure class="catalog__item">
+          <img src="img/product4.png" alt="product4" class="catalog__img">
+          <figcaption class="catalog__product">Black sunglasses</figcaption>
+          <span class="catalog__price">$29</span>
+        </figure>
+        <figure class="catalog__item">
+          <img src="img/product5.png" alt="product5" class="catalog__img">
+          <figcaption class="catalog__product">Long sleeved twill shirt</figcaption>
+          <span class="catalog__price">$20</span>
+        </figure>
+        <figure class="catalog__item">
+          <img src="img/product6.png" alt="product6" class="catalog__img">
+          <figcaption class="catalog__product">Basic swimsuit</figcaption>
+          <span class="catalog__price">$36</span>
+        </figure>
+        <figure class="catalog__item">
+          <img src="img/product7.png" alt="product7" class="catalog__img">
+          <figcaption class="catalog__product">Bleached shorts</figcaption>
+          <span class="catalog__price">$12</span>
+        </figure>
+        <figure class="catalog__item">
+          <img src="img/product8.png" alt="product8" class="catalog__img">
+          <figcaption class="catalog__product">T-shirt with lower panel</figcaption>
+          <span class="catalog__price"><span class="catalog__price_through">$32</span> <span class="catalog__price_red">$12</span></span>
+        </figure>
+      </div>
+      <a href="#" class="load">LOAD MORE...</a>
+    </section>
+    <div class="container-subscribe">
+      <section class="subscribe">
+        <a href="#" class="subscribe__link">SUBSCRIBE</a>
+        <h1 class="subsribe__slogan">Stay updated on news</h1>
+        <div class="email">
+          <div class="subscribe__email">YOUR EMAIL ADDRESS</div>
+          <div class="right-rectangle"></div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <h1 class="logo">C<span class="ampersand">&</span>B</h1>
+      <ul class="fmenu">
+        <li class="fmenu__item"><a href="" class="fmenu__link">HOME</a></li>
+        <li class="fmenu__item"><a href="" class="fmenu__link">CATALOG</a></li>
+        <li class="fmenu__item"><a href="" class="fmenu__link">NEWS</a></li>
+        <li class="fmenu__item"><a href="" class="fmenu__link">SALE</a></li>
+        <li class="fmenu__item"><a href="" class="fmenu__link">ABOUT</a></li>
+        <li class="fmenu__item"><a href="" class="fmenu__link">CONTACT</a></li>
+      </ul>
+      <span class="copyright">©2010 - 2016 All rights reserved</span>
+    </footer>
   </div>
-  <section class="catalog clear">
-    <h1 class="catalog__header">Catalog</h1>
-    <ul class="sorting">
-      <li class="sorting__item"><a href="" class="sorting__link">ALL</a></li>
-      <li class="sorting__item"><a href="" class="sorting__link">T-SHIRTS</a></li>
-      <li class="sorting__item"><a href="" class="sorting__link">SWEATERS</a></li>
-      <li class="sorting__item"><a href="" class="sorting__link">SHORTS</a></li>
-      <li class="sorting__item"><a href="" class="sorting__link">JACKETS</a></li>
-      <li class="sorting__item"><a href="" class="sorting__link">ACCESSOIRES</a></li>
-    </ul>
-    <figure class="catalog__item">
-      <img src="img/product1.png" alt="product1" class="catalog__img">
-      <figcaption class="catalog__product">Printed swimsuit</figcaption>
-      <span class="catalog__price">$23</span>
-    </figure>
-    <figure class="catalog__item">
-      <img src="img/product2.png" alt="product2" class="catalog__img">
-      <figcaption class="catalog__product">Jogging bermuda shorts</figcaption>
-      <span class="catalog__price">$36 $12</span>
-    </figure>
-    <figure class="catalog__item">
-      <img src="img/product3.png" alt="product3" class="catalog__img">
-      <figcaption class="catalog__product">Basic beach flip flops</figcaption>
-      <span class="catalog__price">$9</span>
-    </figure>
-    <figure class="catalog__item">
-      <img src="img/product4.png" alt="product4" class="catalog__img">
-      <figcaption class="catalog__product">Black sunglasses</figcaption>
-      <span class="catalog__price">$29</span>
-    </figure>
-    <figure class="catalog__item">
-      <img src="img/product5.png" alt="product5" class="catalog__img">
-      <figcaption class="catalog__product">Long sleeved twill shirt</figcaption>
-      <span class="catalog__price">$20</span>
-    </figure>
-    <figure class="catalog__item">
-      <img src="img/product6.png" alt="product6" class="catalog__img">
-      <figcaption class="catalog__product">Basic swimsuit</figcaption>
-      <span class="catalog__price">$36</span>
-    </figure>
-    <figure class="catalog__item">
-      <img src="img/product7.png" alt="product7" class="catalog__img">
-      <figcaption class="catalog__product">Bleached shorts</figcaption>
-      <span class="catalog__price">$12</span>
-    </figure>
-    <figure class="catalog__item">
-      <img src="img/product8.png" alt="product8" class="catalog__img">
-      <figcaption class="catalog__product">T-shirt with lower panel</figcaption>
-      <span class="catalog__price">$32 $12</span>
-    </figure>
-    <a href="#" class="load">LOAD MORE...</a>
-  </section>
-  <section class="subscribe">
-    <a href="#" class="subscribe__link">SUBSCRIBE</a>
-    <h1 class="subsribe__slogan">Stay updated on news</h1>
-    <div class="subscribe__email">YOUR EMAIL ADDRESS</div>
-  </section>
-  <footer class="footer">
-    <h1 class="logo">C&B</h1>
-    <ul class="fmenu">
-      <li class="fmenu__item"><a href="" class="fmenu__link">HOME</a></li>
-      <li class="fmenu__item"><a href="" class="fmenu__link">CATALOG</a></li>
-      <li class="fmenu__item"><a href="" class="fmenu__link">NEWS</a></li>
-      <li class="fmenu__item"><a href="" class="fmenu__link">SALE</a></li>
-      <li class="fmenu__item"><a href="" class="fmenu__link">ABOUT</a></li>
-      <li class="fmenu__item"><a href="" class="fmenu__link">CONTACT</a></li>
-    </ul>
-    <span class="copyright">©2010 - 2016 All rights reserved</span>
-  </footer>
 </body>
 </html>
